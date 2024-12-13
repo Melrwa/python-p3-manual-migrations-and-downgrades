@@ -4,7 +4,7 @@ from venv import create
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from models import Base, Student
+from alembic.models import Base, Student
 
 if __name__ == '__main__':
 
